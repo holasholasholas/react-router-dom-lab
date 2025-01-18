@@ -1,17 +1,12 @@
 // src/App.jsx
+import NavBar from "./components/NavBar/NavBar";
+import {Route,Routes} from "react-router";
 
 const App = () => {
   return (
 
 <>
-<div className="NavBar"/>
-
-<ul>
-  <li>Home</li>
-  <li>MailBoxes</li>
-  <li>New Mailbox</li>
-</ul>
-
+<NavBar />
 <h1>Mailbox List</h1>
 
 <ul>
