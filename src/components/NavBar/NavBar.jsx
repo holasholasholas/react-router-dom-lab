@@ -5,8 +5,8 @@ const NavBar = () => {
       <nav>
         <ul className="NavBar">
             <Link to='/'>Home</Link>
-            <Link to='/mailboxes'> MailboxList</Link>
-            <Link to= 'new-mailbox'> Mailbox</Link>
+            <Link to='/mailboxes'> Mailboxes</Link>
+            <Link to= '/new-mailbox'> New Mailbox</Link>
         </ul>
       </nav>
     );
